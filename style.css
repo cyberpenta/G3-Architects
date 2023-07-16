@@ -85,7 +85,7 @@ nav a {
 /* Main styles */
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 /* Teams section */
@@ -131,6 +131,7 @@ main {
 
 
 /* Responsive Media query */
+
 /* Mobile Devices */
 @media screen and (max-width:576px) {
     header {
@@ -140,12 +141,22 @@ main {
     nav {
         flex-direction: column;
     }
+    .team-container{
+        flex-direction: column;
+    }
+    .teams-img{
+        grid-template-columns: 1fr;
+    }
+    .teams-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 /* Tablet Devices */
 
 @media screen and (min-width:576px) and (max-width:960px) {
-    nav {
+    nav,.team-container {
         flex-direction: column;
     }
 
