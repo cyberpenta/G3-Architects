@@ -130,20 +130,42 @@ main {
 }
 
 /* Facts section */
-.facts {
-    
-}
+.facts {}
 
 .fact-title {
-    color:#131313;
+    color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
 
 }
 
 .fact-desc {
-    color:#727272;
+    color: #727272;
     font-size: 1rem;
+}
+.fact-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+    
+}
+.card-stat{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.card-title{
+    font-weight: 600;
+    color: #727272;
+    font-size: 1.3rem;
 }
 
 /* Responsive Media query */
